@@ -1,0 +1,11 @@
+@"
+# Python
+__pycache__/
+*.pyc
+gullak-backend/.env
+
+# Node
+gullak-frontend/node_modules/
+gullak-frontend/dist/
+gullak-frontend/.env
+"@ | Out-File -FilePath .gitignore -Encoding utf8
